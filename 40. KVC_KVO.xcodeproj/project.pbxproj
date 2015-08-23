@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845EAABE1B8A1C490090E330 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EAABD1B8A1C490090E330 /* Student.m */; };
+		845EAAC11B8A262D0090E330 /* NVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EAAC01B8A262D0090E330 /* NVStudent.m */; };
 		846ADBE61B89599500F6462C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADBE51B89599500F6462C /* main.m */; };
 		846ADBE91B89599500F6462C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADBE81B89599500F6462C /* AppDelegate.m */; };
 		846ADBEC1B89599500F6462C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ADBEB1B89599500F6462C /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845EAABC1B8A1C480090E330 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		845EAABD1B8A1C490090E330 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		845EAABF1B8A262C0090E330 /* NVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVStudent.h; sourceTree = "<group>"; };
+		845EAAC01B8A262D0090E330 /* NVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVStudent.m; sourceTree = "<group>"; };
 		846ADBE01B89599400F6462C /* 40. KVC_KVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "40. KVC_KVO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846ADBE41B89599500F6462C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846ADBE51B89599500F6462C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				846ADBE81B89599500F6462C /* AppDelegate.m */,
 				846ADBEA1B89599500F6462C /* ViewController.h */,
 				846ADBEB1B89599500F6462C /* ViewController.m */,
+				845EAABF1B8A262C0090E330 /* NVStudent.h */,
+				845EAAC01B8A262D0090E330 /* NVStudent.m */,
+				845EAABC1B8A1C480090E330 /* Student.h */,
+				845EAABD1B8A1C490090E330 /* Student.m */,
 				846ADBED1B89599500F6462C /* Main.storyboard */,
 				846ADBF01B89599500F6462C /* Images.xcassets */,
 				846ADBF21B89599500F6462C /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				846ADBEC1B89599500F6462C /* ViewController.m in Sources */,
 				846ADBE91B89599500F6462C /* AppDelegate.m in Sources */,
 				846ADBE61B89599500F6462C /* main.m in Sources */,
+				845EAABE1B8A1C490090E330 /* Student.m in Sources */,
+				845EAAC11B8A262D0090E330 /* NVStudent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				846ADC051B89599500F6462C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846ADC061B89599500F6462C /* Build configuration list for PBXNativeTarget "40. KVC_KVOTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				846ADC081B89599500F6462C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
